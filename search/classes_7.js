@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['hdotsforatom',['HdotsforAtom',['../classtex_1_1core_1_1_hdotsfor_atom.html',1,'tex::core']]],
-  ['hlineatom',['HlineAtom',['../classtex_1_1core_1_1_hline_atom.html',1,'tex::core']]],
-  ['horizontalbox',['HorizontalBox',['../classtex_1_1core_1_1_horizontal_box.html',1,'tex::core']]],
-  ['horizontalrule',['HorizontalRule',['../classtex_1_1core_1_1_horizontal_rule.html',1,'tex::core']]]
+  ['hdotsforatom',['HdotsforAtom',['../classtex_1_1HdotsforAtom.html',1,'tex']]],
+  ['hlineatom',['HlineAtom',['../classtex_1_1HlineAtom.html',1,'tex']]],
+  ['horizontalbox',['HorizontalBox',['../classtex_1_1HorizontalBox.html',1,'tex']]],
+  ['horizontalrule',['HorizontalRule',['../classtex_1_1HorizontalRule.html',1,'tex']]]
 ];

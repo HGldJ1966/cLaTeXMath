@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['bigdelimiteratom',['BigDelimiterAtom',['../classtex_1_1core_1_1_big_delimiter_atom.html',1,'tex::core']]],
-  ['bigoperatoratom',['BigOperatorAtom',['../classtex_1_1core_1_1_big_operator_atom.html',1,'tex::core']]],
-  ['boldatom',['BoldAtom',['../classtex_1_1core_1_1_bold_atom.html',1,'tex::core']]],
-  ['box',['Box',['../classtex_1_1core_1_1_box.html',1,'tex::core']]],
-  ['breakmarkatom',['BreakMarkAtom',['../classtex_1_1core_1_1_break_mark_atom.html',1,'tex::core']]]
+  ['bigdelimiteratom',['BigDelimiterAtom',['../classtex_1_1BigDelimiterAtom.html',1,'tex']]],
+  ['bigoperatoratom',['BigOperatorAtom',['../classtex_1_1BigOperatorAtom.html',1,'tex']]],
+  ['boldatom',['BoldAtom',['../classtex_1_1BoldAtom.html',1,'tex']]],
+  ['box',['Box',['../classtex_1_1Box.html',1,'tex']]],
+  ['breakmarkatom',['BreakMarkAtom',['../classtex_1_1BreakMarkAtom.html',1,'tex']]]
 ];

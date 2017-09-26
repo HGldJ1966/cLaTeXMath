@@ -8,14 +8,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-  $(document).ready(initResizable);
-  $(window).load(resizeHeight);
-</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -70,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -82,20 +74,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-$(document).ready(function(){initNavTree('functions_vars.html','');});
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -113,70 +91,67 @@ $(document).ready(function(){initNavTree('functions_vars.html','');});
 <div class="contents">
 &#160;<ul>
 <li>_alignment
-: <a class="el" href="classtex_1_1core_1_1_atom.html#a709be751ed8e2337450d0d6dc905e618">tex::core::Atom</a>
+: <a class="el" href="classtex_1_1Atom.html#a95068f573517bca13fdbde77b8c24aa8">tex::Atom</a>
 </li>
 <li>_background
-: <a class="el" href="classtex_1_1core_1_1_box.html#a6c97d60dd6928c30a866a6de686e71ca">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a31174e005d3963dd97e59fd40d451f3c">tex::Box</a>
 </li>
 <li>_children
-: <a class="el" href="classtex_1_1core_1_1_box.html#a11c560ca9913ee13139bce019db92398">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a7a58c1fb61848b4dbde8b56082a5f44e">tex::Box</a>
 </li>
 <li>_depth
-: <a class="el" href="classtex_1_1core_1_1_box.html#a4e122777735dc64ccf121f97df047102">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a0a5c54d95dfa3563ebc269f8f77f8b1f">tex::Box</a>
 </li>
 <li>_foreground
-: <a class="el" href="classtex_1_1core_1_1_box.html#a176603fe2188b349b9cb4177380e5d3f">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a5c5c0d7051821d1c0e7a02a158ce73c7">tex::Box</a>
 </li>
 <li>_height
-: <a class="el" href="classtex_1_1core_1_1_box.html#ac2c29a8798d0626977fa53a8d060361b">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#ac4d20dcaf71e98d037058742d0fbfd3c">tex::Box</a>
 </li>
 <li>_prevColor
-: <a class="el" href="classtex_1_1core_1_1_box.html#a5e27a9b2e261c4f5eb113668d7033cd0">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a9eca9e97dc6e5038248120d14868b571">tex::Box</a>
 </li>
 <li>_shift
-: <a class="el" href="classtex_1_1core_1_1_box.html#a66366f1a77776fdc5f189f9573a2bec3">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#a2dd6949cc472eaf8f8e5cafe3caff101">tex::Box</a>
 </li>
 <li>_type
-: <a class="el" href="classtex_1_1core_1_1_atom.html#ac6a4d8c206801a9b4d4f2209db2714dc">tex::core::Atom</a>
-, <a class="el" href="classtex_1_1core_1_1_box.html#a7554711ddc390bd5bef4bd7275f1160d">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Atom.html#ac63cc5f3e1b61a731396ddf2e63650f9">tex::Atom</a>
+, <a class="el" href="classtex_1_1Box.html#a3ed70f4d4f07d2f6c3b162c246a73344">tex::Box</a>
 </li>
 <li>_typelimits
-: <a class="el" href="classtex_1_1core_1_1_atom.html#adaa085cb25b10e1e8fb457c9f1de2c1d">tex::core::Atom</a>
+: <a class="el" href="classtex_1_1Atom.html#a630469c281b2d4a378028bb640e21593">tex::Atom</a>
 </li>
 <li>_width
-: <a class="el" href="classtex_1_1core_1_1_box.html#aaff525d253d16df7d1d2ffc952f98601">tex::core::Box</a>
+: <a class="el" href="classtex_1_1Box.html#ad3370d7524f6d2128c48a8e2ff707c97">tex::Box</a>
 </li>
 <li>GEN_SET_EL
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font_parser.html#a3d9a28795bf504d1a63a065d9c59d306">tex::fonts::DefaultTeXFontParser</a>
+: <a class="el" href="classtex_1_1DefaultTeXFontParser.html#a3d9a28795bf504d1a63a065d9c59d306">tex::DefaultTeXFontParser</a>
 </li>
 <li>NONE
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font.html#a9cee8c75d618b8142bafbb72e28c18a4">tex::fonts::DefaultTeXFont</a>
+: <a class="el" href="classtex_1_1DefaultTeXFont.html#a9cee8c75d618b8142bafbb72e28c18a4">tex::DefaultTeXFont</a>
 </li>
 <li>NUMBERS
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font.html#aec68057b671380f987207715d4772109">tex::fonts::DefaultTeXFont</a>
+: <a class="el" href="classtex_1_1DefaultTeXFont.html#aec68057b671380f987207715d4772109">tex::DefaultTeXFont</a>
 </li>
 <li>RESOURCE_NAME
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font_parser.html#a7520a7503dec98f92163cccda2cc0ab6">tex::fonts::DefaultTeXFontParser</a>
+: <a class="el" href="classtex_1_1DefaultTeXFontParser.html#a7520a7503dec98f92163cccda2cc0ab6">tex::DefaultTeXFontParser</a>
 </li>
 <li>STYLE_MAPPING_EL
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font_parser.html#ad527ddd9b12416c0705b15adf6f1668b">tex::fonts::DefaultTeXFontParser</a>
+: <a class="el" href="classtex_1_1DefaultTeXFontParser.html#ad527ddd9b12416c0705b15adf6f1668b">tex::DefaultTeXFontParser</a>
 </li>
 <li>TOP
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font.html#a542f5f5232aee34315c5c1aef8a6164f">tex::fonts::DefaultTeXFont</a>
+: <a class="el" href="classtex_1_1DefaultTeXFont.html#a542f5f5232aee34315c5c1aef8a6164f">tex::DefaultTeXFont</a>
 </li>
 <li>WIDTH
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font.html#a6a1be92af1e00eaad1f0087f8ef67f65">tex::fonts::DefaultTeXFont</a>
+: <a class="el" href="classtex_1_1DefaultTeXFont.html#a6a1be92af1e00eaad1f0087f8ef67f65">tex::DefaultTeXFont</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated on Mon Jul 25 2016 15:16:06 for cLaTeXMath by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
 </body>
 </html>

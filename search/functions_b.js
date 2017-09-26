@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['makeatletter',['makeAtLetter',['../classtex_1_1core_1_1_te_x_parser.html#aec758817e4b933e996ed4b4c007a767d',1,'tex::core::TeXParser']]],
-  ['makeatother',['makeAtOther',['../classtex_1_1core_1_1_te_x_parser.html#a1af1bfce43ac9c23322b7538988f45a0',1,'tex::core::TeXParser']]],
-  ['markastextsymbol',['markAsTextSymbol',['../classtex_1_1core_1_1_char_symbol.html#a360b7f55f0553aec26654864ef212ec0',1,'tex::core::CharSymbol']]]
+  ['makeatletter',['makeAtLetter',['../classtex_1_1TeXParser.html#a39e5f6d5072ab4b79b9e2263f5010e70',1,'tex::TeXParser']]],
+  ['makeatother',['makeAtOther',['../classtex_1_1TeXParser.html#a0e19afd745b91997c4211893adb0bd9a',1,'tex::TeXParser']]],
+  ['markastextsymbol',['markAsTextSymbol',['../classtex_1_1CharSymbol.html#a18a1afd40d4e53429731e2bf159d977b',1,'tex::CharSymbol']]]
 ];

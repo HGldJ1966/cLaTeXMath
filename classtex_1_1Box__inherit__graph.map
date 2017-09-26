@@ -1,0 +1,19 @@
+<map id="tex::Box" name="tex::Box">
+<area shape="rect" id="node2" href="$classtex_1_1CharBox.html" title="tex::CharBox" alt="" coords="153,5,251,32"/>
+<area shape="rect" id="node3" href="$classtex_1_1FramedBox.html" title="tex::FramedBox" alt="" coords="145,56,259,83"/>
+<area shape="rect" id="node6" href="$classtex_1_1GlueBox.html" title="tex::GlueBox" alt="" coords="153,107,251,133"/>
+<area shape="rect" id="node7" href="$classtex_1_1HorizontalBox.html" title="tex::HorizontalBox" alt="" coords="137,157,267,184"/>
+<area shape="rect" id="node8" href="$classtex_1_1HorizontalRule.html" title="tex::HorizontalRule" alt="" coords="135,208,269,235"/>
+<area shape="rect" id="node9" href="$classtex_1_1OverUnderBox.html" title="tex::OverUnderBox" alt="" coords="135,259,269,285"/>
+<area shape="rect" id="node10" href="$classtex_1_1ReflectBox.html" title="tex::ReflectBox" alt="" coords="145,309,259,336"/>
+<area shape="rect" id="node11" href="$classtex_1_1RotateBox.html" title="tex::RotateBox" alt="" coords="147,360,257,387"/>
+<area shape="rect" id="node12" href="$classtex_1_1ScaleBox.html" title="tex::ScaleBox" alt="" coords="150,411,254,437"/>
+<area shape="rect" id="node13" href="$classtex_1_1ShiftBox.html" title="tex::ShiftBox" alt="" coords="153,461,251,488"/>
+<area shape="rect" id="node14" href="$classtex_1_1StrutBox.html" title="tex::StrutBox" alt="" coords="153,512,251,539"/>
+<area shape="rect" id="node15" href="$classtex_1_1TextRenderingBox.html" title="tex::TextRenderingBox" alt="" coords="124,563,280,589"/>
+<area shape="rect" id="node16" href="$classtex_1_1VerticalBox.html" title="tex::VerticalBox" alt="" coords="145,613,259,640"/>
+<area shape="rect" id="node18" href="$classtex_1_1WrapperBox.html" title="tex::WrapperBox" alt="" coords="142,664,262,691"/>
+<area shape="rect" id="node4" href="$classtex_1_1OvalBox.html" title="tex::OvalBox" alt="" coords="338,31,437,57"/>
+<area shape="rect" id="node5" href="$classtex_1_1ShadowBox.html" title="tex::ShadowBox" alt="" coords="328,81,447,108"/>
+<area shape="rect" id="node17" href="$classtex_1_1OverBar.html" title="tex::OverBar" alt="" coords="339,613,435,640"/>
+</map>

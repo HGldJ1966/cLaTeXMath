@@ -1,14 +1,14 @@
 var searchData=
 [
-  ['raiseatom',['RaiseAtom',['../classtex_1_1core_1_1_raise_atom.html',1,'tex::core']]],
-  ['rect',['Rect',['../structtex_1_1port_1_1_rect.html',1,'tex::port']]],
-  ['reflectatom',['ReflectAtom',['../classtex_1_1core_1_1_reflect_atom.html',1,'tex::core']]],
-  ['reflectbox',['ReflectBox',['../classtex_1_1core_1_1_reflect_box.html',1,'tex::core']]],
-  ['resizeatom',['ResizeAtom',['../classtex_1_1core_1_1_resize_atom.html',1,'tex::core']]],
-  ['romanatom',['RomanAtom',['../classtex_1_1core_1_1_roman_atom.html',1,'tex::core']]],
-  ['rotateatom',['RotateAtom',['../classtex_1_1core_1_1_rotate_atom.html',1,'tex::core']]],
-  ['rotatebox',['RotateBox',['../classtex_1_1core_1_1_rotate_box.html',1,'tex::core']]],
-  ['row',['Row',['../classtex_1_1core_1_1_row.html',1,'tex::core']]],
-  ['rowatom',['RowAtom',['../classtex_1_1core_1_1_row_atom.html',1,'tex::core']]],
-  ['ruleatom',['RuleAtom',['../classtex_1_1core_1_1_rule_atom.html',1,'tex::core']]]
+  ['raiseatom',['RaiseAtom',['../classtex_1_1RaiseAtom.html',1,'tex']]],
+  ['rect',['Rect',['../structtex_1_1Rect.html',1,'tex']]],
+  ['reflectatom',['ReflectAtom',['../classtex_1_1ReflectAtom.html',1,'tex']]],
+  ['reflectbox',['ReflectBox',['../classtex_1_1ReflectBox.html',1,'tex']]],
+  ['resizeatom',['ResizeAtom',['../classtex_1_1ResizeAtom.html',1,'tex']]],
+  ['romanatom',['RomanAtom',['../classtex_1_1RomanAtom.html',1,'tex']]],
+  ['rotateatom',['RotateAtom',['../classtex_1_1RotateAtom.html',1,'tex']]],
+  ['rotatebox',['RotateBox',['../classtex_1_1RotateBox.html',1,'tex']]],
+  ['row',['Row',['../classtex_1_1Row.html',1,'tex']]],
+  ['rowatom',['RowAtom',['../classtex_1_1RowAtom.html',1,'tex']]],
+  ['ruleatom',['RuleAtom',['../classtex_1_1RuleAtom.html',1,'tex']]]
 ];

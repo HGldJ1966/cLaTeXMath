@@ -8,14 +8,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-  $(document).ready(initResizable);
-  $(window).load(resizeHeight);
-</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -70,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -109,20 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-$(document).ready(function(){initNavTree('functions_f.html','');});
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -141,36 +119,39 @@ $(document).ready(function(){initNavTree('functions_f.html','');});
 <div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
+<li>fillRect()
+: <a class="el" href="classtex_1_1Graphics2D.html#af950809b6852453233f7ad7ae8ef8cc7">tex::Graphics2D</a>
+</li>
+<li>fillRoundRect()
+: <a class="el" href="classtex_1_1Graphics2D.html#affb3429e4617a4cc2b90111f06910e5f">tex::Graphics2D</a>
+</li>
 <li>FindAttribute()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_element.html#aaf46b0799ea419e5d070ac9a357de48f">tinyxml2::XMLElement</a>
+: <a class="el" href="classtinyxml2_1_1XMLElement.html#aaf46b0799ea419e5d070ac9a357de48f">tinyxml2::XMLElement</a>
 </li>
 <li>FirstAttribute()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_element.html#a67593e63558ffda0386699c3e4cc0b2c">tinyxml2::XMLElement</a>
+: <a class="el" href="classtinyxml2_1_1XMLElement.html#a67593e63558ffda0386699c3e4cc0b2c">tinyxml2::XMLElement</a>
 </li>
 <li>FirstChild()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a536447dc7f54c0cd11e031dad94795ae">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a60e923d13d7dc01f45ab90a2f948b02a">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLHandle.html#a536447dc7f54c0cd11e031dad94795ae">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a60e923d13d7dc01f45ab90a2f948b02a">tinyxml2::XMLNode</a>
 </li>
 <li>FirstChildElement()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a99edff695a3cd3feff8a329189140a33">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a20f48e99b03e9c17487944f229bee130">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLHandle.html#a99edff695a3cd3feff8a329189140a33">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a20f48e99b03e9c17487944f229bee130">tinyxml2::XMLNode</a>
 </li>
 <li>FloatAttribute()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_element.html#a33b69f123f995aff966d2e351bc51b1f">tinyxml2::XMLElement</a>
+: <a class="el" href="classtinyxml2_1_1XMLElement.html#a33b69f123f995aff966d2e351bc51b1f">tinyxml2::XMLElement</a>
 </li>
 <li>FloatValue()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_attribute.html#ae3d51ff98eacc1dc46efcfdaee5c84ad">tinyxml2::XMLAttribute</a>
+: <a class="el" href="classtinyxml2_1_1XMLAttribute.html#ae3d51ff98eacc1dc46efcfdaee5c84ad">tinyxml2::XMLAttribute</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated on Mon Jul 25 2016 15:16:05 for cLaTeXMath by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
 </body>
 </html>

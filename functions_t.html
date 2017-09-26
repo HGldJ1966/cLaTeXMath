@@ -8,14 +8,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript">
-  $(document).ready(initResizable);
-  $(window).load(resizeHeight);
-</script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -70,7 +62,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="annotated.html"><span>Class&#160;List</span></a></li>
       <li><a href="classes.html"><span>Class&#160;Index</span></a></li>
-      <li><a href="hierarchy.html"><span>Class&#160;Hierarchy</span></a></li>
+      <li><a href="inherits.html"><span>Class&#160;Hierarchy</span></a></li>
       <li class="current"><a href="functions.html"><span>Class&#160;Members</span></a></li>
     </ul>
   </div>
@@ -109,20 +101,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     </ul>
   </div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-$(document).ready(function(){initNavTree('functions_t.html','');});
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -142,64 +120,55 @@ $(document).ready(function(){initNavTree('functions_t.html','');});
 
 <h3><a class="anchor" id="index_t"></a>- t -</h3><ul>
 <li>TeXFormula()
-: <a class="el" href="classtex_1_1core_1_1_te_x_formula.html#a62575163007cd09abece22174419552b">tex::core::TeXFormula</a>
+: <a class="el" href="classtex_1_1TeXFormula.html#a62575163007cd09abece22174419552b">tex::TeXFormula</a>
 </li>
 <li>TeXParser()
-: <a class="el" href="classtex_1_1core_1_1_te_x_parser.html#abe460a1a48bb225035fdd19f13b29c68">tex::core::TeXParser</a>
+: <a class="el" href="classtex_1_1TeXParser.html#aee79a02535ad4396a76b7cd7dec9be3b">tex::TeXParser</a>
 </li>
 <li>ToComment()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_comment.html#a8093e1dc8a34fa446d9dc3fde0e6c0ee">tinyxml2::XMLComment</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#aff47671055aa99840a1c1ebd661e63e3">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLComment.html#a8093e1dc8a34fa446d9dc3fde0e6c0ee">tinyxml2::XMLComment</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#aff47671055aa99840a1c1ebd661e63e3">tinyxml2::XMLNode</a>
 </li>
 <li>ToDeclaration()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_declaration.html#a159d8ac45865215e88059ea1e5b52fc5">tinyxml2::XMLDeclaration</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a108858be7ee3eb53f73b5194c1aa8ff0">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a174fd4c22c010b58138c1b84a0dfbd51">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLDeclaration.html#a159d8ac45865215e88059ea1e5b52fc5">tinyxml2::XMLDeclaration</a>
+, <a class="el" href="classtinyxml2_1_1XMLHandle.html#a108858be7ee3eb53f73b5194c1aa8ff0">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a174fd4c22c010b58138c1b84a0dfbd51">tinyxml2::XMLNode</a>
 </li>
 <li>ToDocument()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_document.html#a3e185f880882bd978367bb55937735ec">tinyxml2::XMLDocument</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a836e2966ed736fc3c94f70e12a2a3357">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLDocument.html#a3e185f880882bd978367bb55937735ec">tinyxml2::XMLDocument</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a836e2966ed736fc3c94f70e12a2a3357">tinyxml2::XMLNode</a>
 </li>
 <li>ToElement()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_element.html#ad9ff5c2dbc15df36cf664ce1b0ea0a5d">tinyxml2::XMLElement</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a5e73ed8f3f6f9619d5a8bb1862c47d99">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#aab516e699567f75cc9ab2ef2eee501e8">tinyxml2::XMLNode</a>
+: <a class="el" href="classtinyxml2_1_1XMLElement.html#ad9ff5c2dbc15df36cf664ce1b0ea0a5d">tinyxml2::XMLElement</a>
+, <a class="el" href="classtinyxml2_1_1XMLHandle.html#a5e73ed8f3f6f9619d5a8bb1862c47d99">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#aab516e699567f75cc9ab2ef2eee501e8">tinyxml2::XMLNode</a>
 </li>
 <li>ToNode()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a03ea6ec970a021b71bf1219a0f6717df">tinyxml2::XMLHandle</a>
+: <a class="el" href="classtinyxml2_1_1XMLHandle.html#a03ea6ec970a021b71bf1219a0f6717df">tinyxml2::XMLHandle</a>
 </li>
 <li>TOP
-: <a class="el" href="classtex_1_1fonts_1_1_default_te_x_font.html#a542f5f5232aee34315c5c1aef8a6164f">tex::fonts::DefaultTeXFont</a>
+: <a class="el" href="classtex_1_1DefaultTeXFont.html#a542f5f5232aee34315c5c1aef8a6164f">tex::DefaultTeXFont</a>
 </li>
 <li>ToText()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#a6ab9e8cbfb41417246e5657e3842c62a">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a41c55dab9162d1eb62db2008430e376b">tinyxml2::XMLNode</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_text.html#ab1213b4ddebe9b17ec7e7040e9f1caf7">tinyxml2::XMLText</a>
+: <a class="el" href="classtinyxml2_1_1XMLHandle.html#a6ab9e8cbfb41417246e5657e3842c62a">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a41c55dab9162d1eb62db2008430e376b">tinyxml2::XMLNode</a>
+, <a class="el" href="classtinyxml2_1_1XMLText.html#ab1213b4ddebe9b17ec7e7040e9f1caf7">tinyxml2::XMLText</a>
 </li>
 <li>ToUnknown()
-: <a class="el" href="classtinyxml2_1_1_x_m_l_handle.html#aa387368a1ad8d843a9f12df863d298de">tinyxml2::XMLHandle</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_node.html#a8675a74aa0ada6eccab0c77ef3e5b9bd">tinyxml2::XMLNode</a>
-, <a class="el" href="classtinyxml2_1_1_x_m_l_unknown.html#af4374856421921cad578c8affae872b6">tinyxml2::XMLUnknown</a>
+: <a class="el" href="classtinyxml2_1_1XMLHandle.html#aa387368a1ad8d843a9f12df863d298de">tinyxml2::XMLHandle</a>
+, <a class="el" href="classtinyxml2_1_1XMLNode.html#a8675a74aa0ada6eccab0c77ef3e5b9bd">tinyxml2::XMLNode</a>
+, <a class="el" href="classtinyxml2_1_1XMLUnknown.html#af4374856421921cad578c8affae872b6">tinyxml2::XMLUnknown</a>
 </li>
 <li>translate()
-: <a class="el" href="classtex_1_1port_1_1_graphics2_d.html#acdd782016fff221e1c4414d700c3ee7a">tex::port::Graphics2D</a>
-</li>
-<li>tx()
-: <a class="el" href="classtex_1_1port_1_1_graphics2_d.html#a673e459e62b4767da165d33881f646c7">tex::port::Graphics2D</a>
-</li>
-<li>ty()
-: <a class="el" href="classtex_1_1port_1_1_graphics2_d.html#a1013c470df0cab3e0204e2155c4358ea">tex::port::Graphics2D</a>
+: <a class="el" href="classtex_1_1Graphics2D.html#ac6614bd7ddd393cbfc0c80783456da7a">tex::Graphics2D</a>
 </li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated on Mon Jul 25 2016 15:16:05 for cLaTeXMath by
-    <a href="http://www.doxygen.org/index.html">
-    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
 </body>
 </html>
